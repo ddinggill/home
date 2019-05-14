@@ -36,3 +36,5 @@ git remote add origin https://github.com/ddinggill/home.git
 git push -u origin master 
 
 겁나 어렵네
+
+파일 수정하고 add하고 commit하고 push
