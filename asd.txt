@@ -34,3 +34,5 @@ github에서 주소복사해서 git clone 주소 생성폴더이름
 git remote add origin https://github.com/ddinggill/home.git
 
 git push -u origin master 
+
+겁나 어렵네
