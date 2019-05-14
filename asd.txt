@@ -1,0 +1,36 @@
+cd 
+
+git init : git 초기화
+
+ls-al : 
+
+git status : git 상태보기
+-add안했으면 untracked files 라고 뜸
+
+git add f1.txt
+-status하면 new file: f1.txt
+
+
+git config --global user.name ddinggill
+git config --global user.email ddinggill@naver.com
+
+$ git commit - 누가수정했는지 작성
+
+git log
+-작성자랑 메일 날짜 나옴
+
+파일수정하고 status 치면
+modified f1.txt나옴
+그리고 git add f1.txt 수정하고 항상 add먼저
+commit
+그리고 다시 git log하면 2번 commit까지 나옴
+
+stage - commit 되기전 파일이 가는곳
+reposi - commit된 파일이 간곳
+
+
+github에서 주소복사해서 git clone 주소 생성폴더이름
+
+git remote add origin https://github.com/ddinggill/home.git
+
+git push -u origin master 
